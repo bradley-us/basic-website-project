@@ -1,0 +1,16 @@
+#logo {
+	background: #ca3413;
+}
+
+body {
+	background: url(../img/slider1.jpg);
+	background-attachment: fixed;
+}
+
+#menu a:hover {
+	background: #ca3413;
+}
+
+#posts article .readMore {
+	background: #ca3413;
+}

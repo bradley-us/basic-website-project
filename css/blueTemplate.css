@@ -1,0 +1,16 @@
+#logo {
+	background: #3b5998;
+}
+
+body {
+	background: url(../img/slider4.jpg);
+	background-attachment: fixed;
+}
+
+#menu a:hover {
+	background: #3b5998;
+}
+
+#posts article .readMore {
+	background: #3b5998;
+}

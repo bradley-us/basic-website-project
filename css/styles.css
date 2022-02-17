@@ -1,0 +1,235 @@
+* {
+	box-sizing: border-box;
+}
+
+#all-page {
+	width: 80%;
+	margin: 0 auto;
+	background: #fff;
+	padding: 20px;
+	margin-top: 30px;
+}
+
+#logo {
+	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+		"Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+	font-size: 15px;
+	letter-spacing: 1px;
+	width: 40%;
+	min-width: 350px;
+	background: #3b5998;
+	color: white;
+	text-align: center;
+	height: auto;
+	padding: 0 20px;
+	overflow: hidden;
+}
+
+#logo h1 {
+	float: left;
+}
+
+nav#menu {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	background: #444;
+	width: 100%;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+	text-align: left;
+}
+
+#menu ul {
+	line-height: 46px;
+	list-style: none;
+}
+
+#menu ul li {
+	height: 46px;
+	display: inline-block;
+	transition: all 300ms;
+}
+
+#menu a {
+	display: block;
+	color: white;
+	padding: 0 30px;
+	text-decoration: none;
+}
+
+#content {
+	overflow: hidden;
+}
+
+#posts {
+	width: 60%;
+	float: left;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	padding: 5px;
+}
+
+#posts h2 {
+	font-size: 30px;
+	color: #333;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+#posts article .datePost {
+	display: block;
+	color: green;
+	font-size: 15px;
+	margin-top: 5px;
+}
+
+#posts article p {
+	margin: 20px 0;
+	line-height: 22px;
+	text-align: justify;
+}
+
+#posts article .readMore {
+	padding: 10px;
+	margin-top: 15px;
+	display: inline-block;
+	text-decoration: none;
+	color: white;
+}
+
+aside {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+		Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+	width: 31%;
+	float: right;
+}
+
+aside h4 {
+	margin-top: 50px;
+	margin-bottom: 20px;
+	text-align: center;
+	line-height: 10px;
+	color: #333;
+	background: #3b5998;
+	padding: 15px 20px;
+	color: white;
+}
+
+aside img {
+	width: 100%;
+	border-bottom: 2px orange solid;
+}
+
+form input[type="text"],
+form input[type="password"],
+form input[type="email"] {
+	border-radius: 2px;
+	padding: 5px;
+	border: 1px solid #ccc;
+	width: 80%;
+	margin-bottom: 10px;
+}
+
+form input[type="submit"] {
+	background: #eee;
+	padding: 10px;
+	border: 1px solid gray;
+	color: #333;
+	cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+	background: #bbb;
+}
+
+footer {
+	font-family: sans-serif;
+	color: white;
+	height: 50px;
+	background: rgba(51, 51, 51, 0.8);
+	width: 80%;
+	margin-top: 50px;
+	padding: 0 20px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+footer p {
+	float: left;
+}
+
+.bx-wrapper,
+.bx-viewport {
+	height: 250px !important;
+}
+
+#selector-theme {
+	position: fixed;
+	width: 50px;
+	height: 180px;
+	background-color: rgba(51, 51, 51, 0.5);
+	top: 40%;
+}
+
+#toGreen,
+#toBlue,
+#toRed {
+	width: 50px;
+	height: 50px;
+	display: block;
+	margin: 0 auto;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	border: 1px solid white;
+	cursor: pointer;
+}
+
+#toGreen {
+	background: #235e3d;
+}
+
+#toRed {
+	background: #ca3413;
+}
+
+#toBlue {
+	background: #3b5998;
+}
+
+footer a {
+	color: white;
+	display: block;
+	float: right;
+	text-decoration: none;
+	padding: 10px;
+	font-size: 20px;
+	background: #000;
+	margin-top: 3px;
+}
+
+#box-about {
+	width: 60%;
+	float: left;
+	margin-top: 40px;
+}
+
+#accordion {
+	margin-top: 20px;
+}
+
+#watch {
+	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+		"Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+	font-size: 40px;
+	font-weight: bold;
+	color: #333;
+	border: 4px solid #333;
+	width: 30%;
+	padding: 30px;
+	margin: 0 auto;
+}
+
+#form-contact {
+	width: 40%;
+	margin-top: 10px;
+	font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+	float: lefT;
+}
